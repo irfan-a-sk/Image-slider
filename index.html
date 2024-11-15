@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS flie added -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body id="bg">
+    <div class="main-container" id="bg" >
+
+<!-- Images Added -->
+        <div class="myslides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="/image-slider/images/joker1.jpg" >
+          <div class="text">First Image</div>
+        </div>
+        
+        <div class="myslides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="/image-slider/images/joker2.jpg" >
+          <div class="text">Second Image</div>
+        </div>
+        
+        <div class="myslides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="/image-slider/images/joker3.jpg" >
+          <div class="text">Third Image</div>
+        </div>
+        <div class="myslides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="/image-slider/images/joker4.jpg" >
+          <div class="text">Forth Image</div>
+        </div>
+        <div class="myslides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="/image-slider/images/joker5.jpg" >
+          <div class="text">Fifth Image</div>
+        </div>
+        
+        <!-- Next and previous Buttons -->
+        <a class="prev" id="prev" onclick="plus_slides(-1)">❮</a>
+        <a class="next"  id="next"  onclick="plus_slides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <!-- Images Bullets or Dots -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+
+        <!-- Javascript file added -->
+    <script src="script.js"></script>    
+</body>
+</html>
