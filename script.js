@@ -65,7 +65,7 @@ function showSlides() {
   slides[slideIndex2 - 1].style.display = "block";
   dots[slideIndex2 - 1].className += " active";
 
-  //  Background colors change in every 4 seconds
+  //  Background colors change in every 3 seconds
   const colors = ["red", "green", "white", "black", "purple"];
   const colorIndex = slideIndex2 % colors.length;
   document.getElementById("bg").style.backgroundColor = colors[colorIndex];
