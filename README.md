@@ -1,5 +1,6 @@
 Project: Image Slider 
-Browser link: 
+
+Browser link: https://irfan-a-sk.github.io/Image-slider/
 
 This project is a simple image slider created using HTML, CSS, and JavaScript. It displays a series of images with a smooth transition effect and includes features like:
 
@@ -11,7 +12,7 @@ Automatic Slideshow: The slider automatically transitions between images after a
 Dynamic Background Color: The background color changes with each image transition, enhancing the visual experience.
 How to Use:
 
-Clone the Repository:
+Clone the Repository: https://github.com/irfan-a-sk/Image-slider.git
 
 Bash
 git clone 
