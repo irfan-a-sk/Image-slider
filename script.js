@@ -71,5 +71,5 @@ function showSlides() {
   document.getElementById("bg").style.backgroundColor = colors[colorIndex];
 }
 
-// Change image every 4 seconds
-setInterval(showSlides, 4000);
+// Change image every 3 seconds
+setInterval(showSlides, 3000);
